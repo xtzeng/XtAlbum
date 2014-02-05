@@ -7,6 +7,8 @@ public class ExtThread extends Thread {
 	@Override
 	public void run(){
 		t.test();
+		System.out.println("==============="+Thread.currentThread().getName());
 		System.out.println("Thread say:Hello,World！");
+		
 	}
 }

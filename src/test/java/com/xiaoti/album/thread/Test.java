@@ -17,6 +17,8 @@ public class Test {
 	public static void main(String[] args) {
 		new ExtThread().start();
 		
+		System.out.println("-----------"+Thread.currentThread().getName());
+		
 		System.out.println("this is main thread");
 	}
 }
